@@ -1,0 +1,9 @@
+# PyCharm-filer
+.idea/
+
+# Virtuell mlijö
+.venv/
+env/
+
+# Cachade filer
+__pycache__/
