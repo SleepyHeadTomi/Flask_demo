@@ -7,7 +7,7 @@ def client():
     app.config["TESTING"] = True
 
     with app.test_client() as client:
-        yield client
+        return client
 
 
 def test_hello_route(client):
